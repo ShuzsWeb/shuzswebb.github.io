@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    cursor: default;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+li {
+    font-size: 1.6em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+}
+
+/* HEADER */
+
+.header {
+    background: #001134;
+    color: white;
+}
+
+nav {
+    font-family: 'Bebas Neue', cursive;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.accueil:hover {
+    text-decoration: underline;
+    transition: all 2s;
+}
+
+.classes:hover {
+    text-decoration: underline;
+    transition: all 2s;
+}
+.infos:hover {
+    text-decoration: underline;
+    transition: all 2s;
+}
+.contact:hover {
+    text-decoration: underline;
+    transition: all 2s;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+/* BODY */
+
+.container1 {
+    height: 230px;
+    background-color: #0f144e;
+}
+
+.titre1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding-top: 50px;
+    margin-left: 50px;
+    font-size: 3em;
+}
+
+.para1 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.container2 {
+    height: 550px;
+    background-color: #3265f1;
+}
+
+.titre2 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding-top: 50px;
+    margin-left: 50px;
+    font-size: 3em;
+}
+
+.para2 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.para3 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.container3 {
+    height: 275px;
+    background-color: #001134;
+}
+
+.titre3 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding-top: 50px;
+    margin-left: 50px;
+    font-size: 3em;
+}
+
+.para4 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.5em;
+    color: white;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 100px;
+    background: #000716;
+    color: white;
+}
+
+.titre_footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 37px;
+}

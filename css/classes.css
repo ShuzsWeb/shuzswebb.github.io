@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    cursor: default;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+li {
+    font-size: 1.6em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+}
+
+/* HEADER */
+
+.header {
+    background: #001134;
+    color: white;
+}
+
+nav {
+    font-family: 'Bebas Neue', cursive;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+
+
+/* LES CLASSES */
+
+.container1 {
+    height: 625px;
+    background-color: #002263;
+}
+
+.titre1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding: 20px 0px;
+    font-size: 3em;
+}
+
+.AK_CW {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    height: 100px;
+    background: #000716;
+    color: white;
+}
+
+.titre_footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 37px;
+}
